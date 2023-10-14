@@ -1,0 +1,36 @@
+Step 1
+	create simple maven project
+	
+Step 2
+	Set Pom.xml file:
+		1.add properties
+		2.add updated selenium dependencies from maven repository
+		3.add updated TestNg dependencies
+		4.add updated Bonigarcia
+		5.add updated poi-ooxml
+		6.then save it
+		
+		
+	
+	Step 3
+	maven force update with pom.xml
+	
+	step 4
+	create package  and class in src/main/java
+	
+	Step 5
+	Add Excel file in src/test/resources as test data
+	
+	Step 6(a)
+	Create method for each key in src/test/java
+	
+	
+	Step 6(b)
+	Create package "properties reader" in src/test/java
+	create class "ExcelReader".
+	import POI dependency for manupulating various file format based on XML.
+	create base test class check for cross browsing
+	in logogin page and login test package as page object model
+	registration page
+	registration test
+	
